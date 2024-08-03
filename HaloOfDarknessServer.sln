@@ -86,6 +86,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{C61F6F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalDataBase", "src\Client\LocalDataBase\LocalDataBase.csproj", "{86F2C455-6DDC-4BE2-B274-DE3A012C06BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalDataBaseTests", "tests\Client\LocalDataBaseTests\LocalDataBaseTests.csproj", "{6C68F05A-6168-4603-AFC2-0DBB58967A73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -140,6 +142,10 @@ Global
 		{86F2C455-6DDC-4BE2-B274-DE3A012C06BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86F2C455-6DDC-4BE2-B274-DE3A012C06BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86F2C455-6DDC-4BE2-B274-DE3A012C06BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C68F05A-6168-4603-AFC2-0DBB58967A73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C68F05A-6168-4603-AFC2-0DBB58967A73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C68F05A-6168-4603-AFC2-0DBB58967A73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C68F05A-6168-4603-AFC2-0DBB58967A73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -172,6 +178,7 @@ Global
 		{3F9A8898-305D-4C92-9C24-57E6B47EFFB8} = {C61F6F62-D28B-4F51-869E-2A2CA127A3C5}
 		{C61F6F62-D28B-4F51-869E-2A2CA127A3C5} = {F554A7FD-FB4D-4F14-BDF8-EC3948C37C90}
 		{86F2C455-6DDC-4BE2-B274-DE3A012C06BD} = {95D9D4EC-D682-4BC3-9BF1-44EC5D4BCF15}
+		{6C68F05A-6168-4603-AFC2-0DBB58967A73} = {1ECFAD8D-28C8-44CA-8D15-28C4F5E5627A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6806214-BD56-491A-8491-7DDFD482AD27}
